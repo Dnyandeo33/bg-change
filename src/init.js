@@ -1,1 +1,4 @@
-alert('init.js loaded!');
+import { clickMe } from './event/btnEvent.js';
+
+// Event
+clickMe();
